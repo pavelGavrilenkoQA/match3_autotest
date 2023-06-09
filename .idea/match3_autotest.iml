@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/main" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main/paje_object" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (match3_autotest)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
