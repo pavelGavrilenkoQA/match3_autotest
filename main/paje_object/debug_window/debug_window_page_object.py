@@ -1,14 +1,6 @@
 from airtest.core.api import *
 
 
-def debug_icon():
-    return Template(
-        r"debug_icon.png",
-        record_pos=(0.415, 1.004),
-        resolution=(1080, 2340)
-    )
-
-
 def text_panel():
     return Template(
         r"panel.png",
@@ -319,4 +311,24 @@ def button_ok_debug():
         record_pos=(-0.002, 0.207),
         resolution=(1080, 2340)
     )
+
+
+def coordinates_input_coins():
+    return (343,686)
+
+
+def coordinates_input_last_completed_level():
+    return (821,686)
+
+
+def coordinates_input_stars():
+    return (343,846)
+
+
+def coordinates_input_level():
+    return (420,1710)
+
+
+def coordinates_input_hero():
+    return (417,1813)
 
