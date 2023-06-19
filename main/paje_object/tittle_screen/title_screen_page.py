@@ -36,15 +36,15 @@ def button_settings():
 def privacy_window():
     return Template(
         r"privacy_window.png",
-        record_pos=(-0.004, 0.03),
+        record_pos=(0.003, 0.028),
         resolution=(1080, 2340)
     )
 
 
 def privacy_first_link():
     return Template(
-        r"privacy_first_link.png.png",
-        record_pos=(0.009, 0.057),
+        r"privacy_first_link.png",
+        record_pos=(-0.003, 0.049),
         resolution=(1080, 2340)
     )
 
@@ -52,7 +52,7 @@ def privacy_first_link():
 def privacy_second_link():
     return Template(
         r"privacy_second_link.png",
-        record_pos=(0.017, 0.121),
+        record_pos=(-0.003, 0.114),
         resolution=(1080, 2340)
     )
 
