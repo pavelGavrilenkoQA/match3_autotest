@@ -3,7 +3,7 @@ from airtest.core.api import *
 
 def core_settings_popup():
     return Template(
-        r"core_settings_popup.py",
+        r"core_settings_popup.png",
         record_pos=(0.031, -0.024),
         resolution=(1080, 2340)
     )
