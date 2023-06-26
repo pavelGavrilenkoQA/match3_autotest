@@ -121,6 +121,30 @@ def loafer2():
     )
 
 
+def button_play():
+    return Template(
+        r"button_play.png",
+        record_pos=(-0.011, 0.535),
+        resolution=(1080, 2340)
+    )
+
+
+def cross():
+    return Template(
+        r"cross.png",
+        record_pos=(0.391, -0.505),
+        resolution=(1080, 2340)
+    )
+
+
+def boosters():
+    return Template(
+        r"boosters.png",
+        record_pos=(0.375, -0.186),
+        resolution=(1080, 2340)
+    )
+
+
 if __name__ == "__main__":
     print(level_start_popup_window())
     print(locked_character())
@@ -137,4 +161,7 @@ if __name__ == "__main__":
     print(clumsy2())
     print(prankster2())
     print(loafer2())
+    print(button_play())
+    print(cross())
+    print(boosters())
 
