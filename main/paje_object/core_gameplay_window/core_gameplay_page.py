@@ -84,48 +84,74 @@ def loafer_gameplay():
 def white_element():
     return Template(
         r"white_element.png",
-        record_pos=(-0.318, -0.429),
-        resolution=(1080, 2340)
     )
 
 
 def red_element():
     return Template(
         r"red_element.png",
-        record_pos=(-0.113, -0.429),
-        resolution=(1080, 2340)
     )
 
 
 def blue_element():
     return Template(
         r"blue_element.png",
-        record_pos=(0.001, -0.427),
-        resolution=(1080, 2340)
     )
 
 
 def orange_element():
     return Template(
         r"orange_element.png",
-        record_pos=(-0.111, -0.425),
-        resolution=(1080, 2340)
     )
 
 
 def green_element():
     return Template(
         r"green_element.png",
-        record_pos=(-0.107, -0.327),
-        resolution=(1080, 2340)
     )
 
 
 def purple_element():
     return Template(
         r"purple_element.png",
-        record_pos=(-0.321, -0.105),
-        resolution=(1080, 2340)
+    )
+
+
+def free_pick_gameplay():
+    return Template(
+        r"free_pick_gameplay.png",
+        record_pos=(0.003, 0.97),
+        resolution=(1080, 2400)
+    )
+
+
+def free_whirly_mill_gameplay():
+    return Template(
+        r"free_whirly_mill_gameplay.png",
+        record_pos=(0.173, 0.971),
+        resolution=(1080, 2400)
+    )
+
+
+def free_hand_gameplay():
+    return Template(
+        r"free_hand_gameplay.png",
+        record_pos=(0.363, 0.974),
+        resolution=(1080, 2400)
+    )
+
+
+def text_free():
+    return Template(
+        r"text_free.png"
+    )
+
+
+def disco_ball():
+    return Template(
+        r"disco_ball.png",
+        record_pos=(-0.407, 1.044),
+        resolution=(1080, 2400)
     )
 
 
@@ -146,3 +172,8 @@ if __name__ == "__main__":
     print(orange_element())
     print(green_element())
     print(purple_element())
+    print(free_whirly_mill_gameplay())
+    print(free_pick_gameplay())
+    print(free_hand_gameplay())
+    print(text_free())
+    print(disco_ball())
