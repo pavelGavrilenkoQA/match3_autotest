@@ -89,7 +89,7 @@ def loafer_selected():
     )
 
 
-def comic2():
+def comic_level_start():
     return Template(
         r"comic2.png.png",
         record_pos=(0.013, -0.189),
@@ -97,7 +97,7 @@ def comic2():
     )
 
 
-def clumsy2():
+def clumsy_level_start():
     return Template(
         r"clumsy_2.png",
         record_pos=(-0.021, -0.167),
@@ -105,7 +105,7 @@ def clumsy2():
     )
 
 
-def prankster2():
+def prankster_level_start():
     return Template(
         r"prankster_2.png",
         record_pos=(0.008, -0.196),
@@ -113,7 +113,7 @@ def prankster2():
     )
 
 
-def loafer2():
+def loafer_level_start():
     return Template(
         r"loafer2.png",
         record_pos=(0.008, -0.222),
@@ -137,11 +137,27 @@ def cross():
     )
 
 
-def boosters():
+def free_pick():
     return Template(
-        r"boosters.png",
-        record_pos=(0.375, -0.186),
-        resolution=(1080, 2340)
+        r"free_pick.png",
+        record_pos=(0.373, -0.332),
+        resolution=(1080, 2400)
+    )
+
+
+def free_whirly_mill():
+    return Template(
+        r"free_whirly_mill.png",
+        record_pos=(0.381, -0.16),
+        resolution=(1080, 2400)
+    )
+
+
+def free_hand():
+    return Template(
+        r"free_hand.png",
+        record_pos=(0.372, -0.014),
+        resolution=(1080, 2400)
     )
 
 
@@ -157,11 +173,13 @@ if __name__ == "__main__":
     print(comic_selected())
     print(prankster_selected())
     print(loafer_selected())
-    print(comic2())
-    print(clumsy2())
-    print(prankster2())
-    print(loafer2())
+    print(comic_level_start())
+    print(clumsy_level_start())
+    print(prankster_level_start())
+    print(loafer_level_start())
     print(button_play())
     print(cross())
-    print(boosters())
+    print(free_pick())
+    print(free_whirly_mill())
+    print(free_hand())
 
