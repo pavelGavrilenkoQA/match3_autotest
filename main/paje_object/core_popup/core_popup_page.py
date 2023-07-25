@@ -173,6 +173,17 @@ def extra_candy():
         resolution=(1080, 2340)
     )
 
+def dollar():
+    return Template(
+        r"dollar.png",
+    )
+
+def exit():
+    return Template(
+        r"exit.png",
+        record_pos=(0.381, -0.632),
+        resolution=(1080, 2340)
+    )
 
 if __name__ == "__main__":
     print(button_continue_question())
@@ -197,4 +208,6 @@ if __name__ == "__main__":
     print(refill())
     print(jolly_favor())
     print(extra_candy())
+    print(dollar())
+    print(exit())
 
