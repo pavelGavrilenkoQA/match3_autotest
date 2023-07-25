@@ -394,6 +394,8 @@ def button_go_to_levels():
 def button_close_pop_up():
     return Template(
         r"close.png",
-        record_pos=(0.369,-0.294),
+        record_pos=(0.369, -0.294),
         resolution=(1080, 2400)
     )
+
+
